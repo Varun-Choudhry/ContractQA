@@ -28,6 +28,9 @@ Create a library where you upload a contract, execute a sequence of prompts to r
 - Setup python script to successfully extract sections from a pdf
 - Used a 21 page pdf which split into 76 chunks, token size of chunks varied from 20-840 using text-embedding-granite-embedding-278m-multilingual locally running on lmstudio (need to look at merging smaller chunks)
 - Setup a UI to manually check semantic searching in Weaviate(the vector db) and what chunks it retreives for every query. Based on the document I have tested some queries and atleast one of the chunks has the information needed. Current limit is 5 closest chunks retreived. Need to test parameter tuning and see impact.
-- NEXT STEPS Need to update code to include tables and figures in the json processing so they can be chunked in their relevant sections.
-- NEXT STEPS,  proper metadata which could improve performance for queries like "Summarize page 3 for me". Look at reranking options to better sort retreived chunks for usage.
-- NEXT STEPS, start query preprocessing and develop the tooling for retreival 
+- Created a script which reads azure json and chunks it, each chunk is minimum 256 tokens except the last one, the primary logic for grouping is the section data in the json, any tables and assoicated data is converted to html markup for improved readability while conveying its a table, the chunks are then loaded into a weaviate collection along with information like page numbers added as metadata using "text-embedding-granite-embedding-278m-multilingual" hosted on lmstudio locally.
+- Created a ui to test an LLM (deepseek r1 running on lmstudio). Any query sent is sent along with the retreived chunks. Current implementation has vector search, hybrid search with a slider to choose dense or sparse retrieval and HyDE approach.
+- NOTE currently all scripts are experimental and are not modular or concise. That will be done once my experiments with different approaches are complete.
+- NEXT WORK, define proper tooling and retrieval functions. Add tools for retreiving tables and pages etc, which is available in the weaviate metadata. Identify and decompose the singular prompt into a chain for better habdling of complex queries.
+
+
