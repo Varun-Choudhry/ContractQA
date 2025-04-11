@@ -1,0 +1,442 @@
+[CHUNK composed of sections [1, 2, 3]]
+[TITLE] SERVICE AGREEMENT
+DATED [_ October, 2024]
+between
+[Compusoft Advisors India Private Limited], also known as Compusoft a company incorporated [private limited company ] in [Thane, Maharashtra India] (Company / Business Registration Number [U72900MH2001PTC132251]), having a principal place of business address at Aggarwal Estate, Chitalsar Manpada, G B Road, Thane 400610] (hereinafter referred to as "Service Provider")
+and
+Zurich Services (Hong Kong) Limited, a company incorporated with limited liability in Hong Kong and having a principal place of business at 25-26/F, One Island East, 18 Westlands Road, Island East, Hong Kong (hereinafter referred to as "Service Receiver" or "Zurich")
+(each of which individually a "Party" and collectively the "Parties")
+WHEREAS, the Service Provider possesses the skills, knowhow and ability, including qualified personnel with necessary expertise, in the provision of the services identified in Schedule 2 ("Services");
+WHEREAS, the Service Receiver wishes to engage the Service Provider in providing the Services as set out in this Agreement; and
+WHEREAS, the Service Provider is prepared to provide the Services and the Service Receiver is prepared to accept the Services and to pay an appropriate consideration to the Service Provider for the provision of the Services as set out hereunder;
+NOW THEREFORE, the Parties agree as follows:
+[SECTIONHEADING] 1. Services
+The Service Provider will provide to the Service Receiver the Services as set out in Schedule 2 hereto.
+[SECTIONHEADING] 2. Pricing / Invoicing / Payment
+The Service Provider shall price and invoice to the Service Receiver and the Service Receiver shall pay to the Service Provider the Service Fees as set out in Schedule 3 hereto.
+
+[CHUNK composed of sections [4, 5, 6, 7, 8, 9]]
+[SECTIONHEADING] 3. Commencement, Term and Notice Period
+(a) Commencement of Services: 1st October 2024 or as otherwise agreed between the Parties.
+(b) Term: Three (3) months from the date of Commencement of Services, or as otherwise agreed between the Parties.
+(c) Notice period for termination: As set out in Schedule 1.
+[SECTIONHEADING] 4. Terms and Conditions
+The Terms and Conditions as set out in Schedule 1 hereto shall apply to this Agreement.
+[SECTIONHEADING] 5. Schedules
+The Schedules hereto as set out herein shall form an integral part of this Agreement and shall have the same force and effect as if set out in the body of this Agreement.
+[SECTIONHEADING] 6. Effective Date
+This Agreement shall take effect from the date of the last Party signs this Agreement.
+[SECTIONHEADING] 7. Termination Date
+This Agreement shall expire at the end of the Term, or upon termination by either Party in accordance with Schedule 1.
+[SECTIONHEADING] 8. Notices
+Service Provider :-
+<table>
+  <tr>
+    <th>[Compusoft ]</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>: [Aggarwal Estate, Chitalsar Manpada, G B Road, Thane 400610, ]</td>
+  </tr>
+  <tr>
+    <td>Fax</td>
+    <td>: [022-25890162]</td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td>: [devesh@compusoftadvisors.com]</td>
+  </tr>
+  <tr>
+    <td>Contact person</td>
+    <td>: [Devesh Aggarwal]</td>
+  </tr>
+</table>
+
+Service Receiver :-
+Zurich Services (Hong Kong) Limited
+<table>
+  <tr>
+    <td>Address</td>
+    <td>: 25-26/F, One Island East, 18 Westlands Road, Island East, Hong Kong</td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td>: prashant.lulla@zurich.com.my</td>
+  </tr>
+  <tr>
+    <td>Contact person</td>
+    <td>: Prashant Lulla and Reginie Wong</td>
+  </tr>
+</table>
+
+IN WITNESS WHEREOF, the Parties have executed this Agreement on the date and at the place written below.
+[Compusoft] For COMPU FT ADVISOR
+68Ds
+Authorised Signatory / Director
+Authorised Signatory
+Name: [Devesh Aggarwal]
+Title: [Managing Director] Date:
+Zurich Services (Hong Kong) Limited
+M- Molly.
+Prashant Lulla
+Authorised Signatory Name: Matthew Reilly
+Date:
+Acknowledged By Name: Prashant Lulla Date:
+
+[CHUNK composed of sections [10, 11, 12]]
+[TITLE] SCHEDULE 1 TERMS AND CONDITIONS
+[SECTIONHEADING] 1. Definitions
+"Agreement" shall mean the main body of this service agreement including any Schedules thereto and including these Terms and Conditions, each of which as amended from time to time;
+"Business Day" shall mean a day other than a Saturday, Sunday or a gazetted holiday in the jurisdiction where the Service Receiver or the Service Provider is located;
+"Hong Kong" shall mean the Hong Kong Special Administrative Region of the People's Republic of China;
+"Service(s)" shall mean the services referred to in Schedule 2 of the Agreement;
+"Service Fee" shall mean the consideration paid by the Service Receiver to the Service Provider for the provision of the Services as calculated in accordance with Schedule 3 of the Agreement;
+"Supplier Licenses" means all requisite licences, permits and registrations as are required for the Service Provider and its employees to perform its obligations under this Agreement in compliance with all applicable laws and regulations; and
+"Zurich Insurance Group" shall mean all the member companies of the Zurich Insurance Group Ltd.
+[SECTIONHEADING] 2. Interpretation
+2.1 A reference to the singular shall include the plural and vice versa and use of the masculine gender only shall include the feminine gender and vice versa;
+2.2 Any reference to a Party or the Parties is to a party or the parties (as the case may be) to the Agreement and will include any permitted assignees of such Party or Parties;
+2.3 References to the Agreement, the Schedules (and parts thereof) and Sections hereof and parts thereof shall be construed as references to such Agreement, Schedules (and parts thereof) and Sections and/or parts thereof as the same may be amended, varied, modified or altered from time to time by mutual agreement in writing of the Parties;
+2.4 In the event of any conflict between the provisions of the main body of the Agreement and the Schedules thereto, the following order of precedence shall apply: (i) the main body of the Agreement, (ii) the provisions of the relevant Schedule (without these Terms and Conditions), (iii) these Terms and Conditions.
+2.5 "Including" shall not be construed as a term of limitation and means "including (without limitation)" if not expressly stated otherwise;
+2.6 "Writing" shall include any modes of reproducing words in a legible and non-transitory form; and
+2.7 References to a month mean a calendar month, and where not further specified, a period of thirty (30) consecutive days.
+
+[CHUNK composed of sections [13, 14, 15]]
+[SECTIONHEADING] 3. Term
+The Agreement shall become effective and commence as of the Effective Date set out in the main body of the Agreement. If this Agreement or any of the Services hereunder requires any approval by any regulatory authority, this Agreement or the provision of the relevant Services hereunder shall not commence until the approval of such relevant regulatory authority is received.
+The Agreement shall remain in full force and effect until terminated in accordance with its terms.
+[SECTIONHEADING] 4. Services
+The Services which the Service Provider will render under the Agreement, including the service level and timeline for delivery, are set out in Schedule 2 to the Agreement. The Agreement may be amended in writing from time to time to further specify the Services in more detail that are to be provided hereunder.
+[SECTIONHEADING] 5. Performance of Services
+The Service Provider shall provide the Services in accordance with the obligations set out in the Agreement and comply with all reasonable instructions given by the Service Receiver in connection with the provision of the Services.
+The Service Provider shall perform the Services:
+(i) with the appropriate degree of care, skill and diligence;
+(ii) in accordance with the relevant industry practice and standards;
+(iii) by using sufficiently and appropriately skilled, qualified, licensed (if required under the applicable law) and competent personnel appropriate to the tasks, who must at all times be permitted to work in Hong Kong in compliance with the laws of Hong Kong; and
+(iv) in compliance with all applicable laws in Hong Kong (and in any other jurisdictions in which the Service Provider (including any Subcontractors) may operate for the purpose of this Agreement) in all respect.
+The Service Provider shall endeavour to render the Services from its own resources. However, the Service Provider is entitled to sub-contract any part of the service provision where no personal data is involved to other appropriately skilled, qualified and competent third party upon reasonable prior approval of the Service Receiver ("Subcontractors"). The Service Provider shall ensure that the engaged Subcontractors perform their activities in accordance with this Agreement as if the Subcontractors were contractually bound by this Agreement, subject always to Clauses 10 and 11 of this Schedule 1. The Service Provider shall not sub-contract any work or services under this Agreement that involve personal data without the prior written consent of the Service Receiver. In all cases the Service Provider shall remain responsible for the provision of the Services and be liable for any acts or omissions of the Subcontractors.
+
+[CHUNK composed of sections [16, 17, 18, 19]]
+[SECTIONHEADING] 6. Service Fee
+The Service Provider shall be entitled to a fee payable by the Service Receiver at the rate and in the manner agreed between the Parties in consideration for the provision of the Services to the satisfaction of the Service Receiver, as set out in Schedule 3.
+Subject to a material change of the circumstances under which this Agreement has been concluded, the Parties may negotiate in good faith to modify the Service Fee under the Agreement to reasonably reflect the impact to the cost structure and the Service provision.
+[SECTIONHEADING] 7. Taxes (If Applicable)
+The Service Fee includes all applicable taxes (if any, such as tax, levy, duty, charge, deduction, sales, service, value added, withholding, registration or similar taxes, but excluding any profits and salaries taxes), duties or other levies attributable to the provided Services, unless otherwise set out in Schedule 3.
+[SECTIONHEADING] 8. Invoicing and Payment
+The invoicing and payment shall occur as agreed in Schedule 3.
+[SECTIONHEADING] 9. Representations and Warranties
+The Parties have placed no reliance on any representations or warranties save to the extent that such representations or warranties are explicitly set out herein
+9.1 Each Party represents and warrants that this Agreement constitutes its legal, valid and binding obligations, enforceable against it in accordance with its terms.
+9.2 The Service Provider represents and warrants that :-
+(i) it holds, and will continue to hold and maintain during the term of this Agreement all Supplier Licenses;
+(ii) it will immediately notify the Service Receiver in writing if it ceases to hold any of the Supplier Licenses;
+(iii) it will be in compliance with all applicable laws and regulations, and it will ensure its employees, contractors or agents (where applicable), in discharging their duties in relation to this Agreement, are adequately competent, licensed and registered if necessary, and will be in compliance with all applicable laws and regulations;
+(iv) it will ensure its employees, contractors or agents (where applicable), will continue to remain competent, licensed and registered if necessary, through regular training;
+(v) it has not been convicted of a criminal offence, and undertakes to notify the Service Receiver immediately if it becomes so convicted during the term of this Agreement;
+(vi) no winding up petition has been made against it and it has not admitted in writing its inability to pay its debts as they become due;
+(vii) it shall notify the Service Receiver immediately if it becomes aware of any contravention or potential contravention of this Clause 9; and
+(viii) it shall take out all necessary insurances that are legally required or customarily expected of the Service Provider providing the Services of the same scale and nature as in this Agreement to take out, including without limitation, if necessary, any employees compensation insurance and third party liability insurance as required by applicable laws in Hong Kong.
+9.3 In performing the Services, if the Service Provider comes across any knowledge of any risk or potential risk associated with any suspected money-laundering activity by an insured, the Service Provider shall accurately relate to the Service Receiver every fact and circumstance in its knowledge.
+
+[CHUNK composed of sections [20, 21, 22, 23, 24]]
+[SECTIONHEADING] 10. Indemnification
+The Service Provider shall indemnify and hold the Service Receiver harmless against all claims, demands, suits or actions made against, and losses, costs and expenses suffered or incurred by, the Service Receiver resulting from a breach by the Service Provider of any obligation imposed on it under this Agreement or through the willful misconduct or negligent act or omission of the Service Provider or any of its officers, employees, agents or Subcontractors.
+[SECTIONHEADING] 11. Payment for Delay in Completion
+The Service Provider agrees to pay the Service Receiver for the sum as set out in Schedule 3 as liquidated damages for any delay in delivery or completion of the Services or the specified milestones (if any).
+[SECTIONHEADING] 11A. Withholding Payment
+Notwithstanding any other terms under this Agreement, the Service Receiver shall be entitled to withhold any payments to the Service Provider, including but not limited to the Service Fees payable under this Agreement, to the extent that such payment would violate any applicable trade or economic sanction law or regulation. This clause shall also apply for any trade or economic sanction law or regulation that the Service Receiver deems applicable or if the Service Provider or other party receiving payment is a sanctioned person.
+[SECTIONHEADING] 12. Confidentiality, Personal Data Protection and Intellectual Property
+[SECTIONHEADING] 12.1 Definitions
+The following terms appearing in this clause shall have the meanings as defined below :-
+"intellectual property right" shall include any patent, trademark, service mark, registered design, drawing, utility model, design right, business idea, concept, invention, copyright (including the copyright in software in any code), logo, database right, trade secret and other confidential information, technical information, technology, know-how, business or trade name, goodwill and all other intellectual property and right of a similar or corresponding nature in any part of the world, whether registered or not, or capable of registration or not, and including all applications and the right to apply for any of the foregoing rights;
+"Pre-existing IPR" shall mean all intellectual property rights owned by, licensed to, or made available by either the Service Provider or the Service Receiver, which is not generated by the provision of the Services, and which is not New IPR; and
+"New IPR" shall mean all intellectual property rights that arise or are obtained or developed by the Service Provider (whether alone or with any other person) (i) either in whole or in substantial part in the course of the provision of the Services or the deliverables, or (ii) based on Pre-existing IPR provided by the Service Provider or Service Receiver.
+
+[CHUNK composed of sections [25, 26]]
+[SECTIONHEADING] 12.2 Confidentiality
+(i) The Service Provider provides to the Service Receiver the Confidentiality and Security Undertaking as set out in Schedule 4, which shall form an integral part of this Agreement and the execution of this Agreement shall have the same effect as if the Confidentiality and Security Undertaking was separately executed.
+(ii) The Service Provider shall not disclose the existence or content of this Agreement or of the Services (including any deliverables) to any third party, other than a director, employee, consultant or Subcontractor of the Service Provider on a need-to-know basis for the performance of this Agreement.
+[SECTIONHEADING] 12.3 Personal Data Protection
+Where a Party is getting access to any personal data or is acting as a data processor, such Party shall (i) comply with all applicable laws, and in particular, to the extent applicable, maintain the banking secrecy and any other applicable secrecy obligations resulting from insurance, financial services and bank laws and regulations and any other privacy laws which are in effect from time to time, (ii) ensure that all reasonable technical and organizational measures are taken to keep such information secure, and (iii) disclose and give access to such information on a need-to-know basis only, in order to fulfil the obligations under the Agreement or as otherwise agreed between the Parties. The data owner is responsible for the legality and the content of any data processing and ensuring that it has given appropriate notifications and, where required, sought appropriate consents from its data subjects before disclosing any personal data. The Parties shall enter into a data processing agreement and/or sign additional documents if so required in compliance with applicable laws.
+
+[CHUNK composed of sections [27, 28]]
+[SECTIONHEADING] 12.4 Intellectual Property
+Non-publicity
+(i) Without prejudice to the following paragraphs under this sub-section, each Party undertakes to use any logo, trademark (registered or not), designs and any material of or provided by the other Party, which the first Party should reasonably know that the other Party owns the intellectual property rights (or is the licensee thereof), only with the specific written instructions or consent of that other Party.
+(ii) In particular, the Service Provider shall not quote, mention or show or display any reference of the Service Receiver (including the Zurich Insurance Group mark) in its marketing or other promotional material without the prior written consent of the Service Receiver.
+Service Receiver's Pre-existing IPR
+(iii) The Service Provider agrees that all Pre-existing IPR of the Service Receiver shall be owned by or validly licensed to the Service Receiver (unless otherwise specified by the Service Receiver), and the Service Provider shall have no right or claim thereof.
+(iv) Save and except for the Zurich Insurance Group mark, the Service Receiver grants the Service Provider a revocable, royalty-free, non-exclusive and sub-licensable (to its affiliated companies only and subject to prior notice to the Service Receiver) licence to use or copy such Pre-existing IPR for the sole purpose of providing the Services and the deliverables during the term of this Agreement.
+[SECTIONHEADING] New IPR
+(v) The Service Provider agrees that any New IPR shall to the fullest extent permitted by law, on its creation, immediately vests in and be exclusively owned by the Service Receiver.
+(vi) The Service Provider hereby, by this Agreement, grants and assigns, and shall procure the author, creator or such third party who may own or otherwise have a claim on the New IPR to grant and assign, at no additional cost to the Service Receiver, to the Service Receiver exclusively and irrevocably, with full title guarantee, all intellectual property rights and all other rights of whatever nature (including moral rights to the extent legally permissible) throughout the world subsisting in the Services and deliverables (whether finished or unfinished) produced, developed or created pursuant to this Agreement for the full period of such rights, including any renewals or extensions.
+(vii) The Service Provider shall, and shall procure any necessary third party to, do all such further acts (including providing full details of each New IPR to the Service Receiver) and execute all such further deeds, documents and instruments necessary to: (1) vest the rights of the New IPR in the Service Receiver, and (2) protect and enforce the New IPR.
+(viii) The Service Provider irrevocably and unconditionally waives all rights in relation to the New IPR and agrees not to institute, support, maintain or permit any action in relation to the New IPR unless with the consent of the Service Receiver.
+
+[CHUNK composed of sections [29, 30]]
+[SECTIONHEADING] Third party and Service Provider's intellectual property rights
+(ix) Where the Service Provider provides Services or deliverables to the Service Receiver protected by existing intellectual property rights not owned by the Service Provider (or where such intellectual property rights are incorporated into the Services or deliverables), the Service Provider shall inform the Service Receiver of this, shall provide warranty of the right to use and sub-license to the Service Receiver such intellectual property rights, and shall fully indemnify and hold the Service Receiver harmless against all loss or liability arising from any third party intellectual property rights claims arising both from such intellectual property rights and in relation to any Services or deliverables provided to the Service Receiver.
+(x) The Service Provider grants to the Service Receiver a worldwide, perpetual, irrevocable, non-exclusive, sub-licensable, royalty-free licence to use all Pre-existing IPR of the Service Provider, to the extent necessary to enable the Service Receiver to exploit the New IPR and to enjoy and use the Services and deliverables. Such licence shall continue notwithstanding
+the termination or expiry of this Agreement.
+[SECTIONHEADING] 13. Records
+13.1 The Service Provider must properly maintain and retain books, accounts, records and reports related to the provision of the Services to the Service Receiver for such period in compliance with the applicable laws or ten (10) years in compliance with the Service Receiver's group policies as notified by the Service Receiver to the Service Provider (whichever is longer).
+13.2 The Parties shall provide to each other the information required by the applicable laws or reasonably requested by a Party for the performance of the obligations under the Agreement. The Service Provider shall allow the Service Receiver and the competent regulatory authorities access to information, books and records in a timely manner for the purposes of audit compliance (if reasonable to do so) or to the extent required to comply with applicable laws or the provisions of the Agreement.
+
+[CHUNK composed of sections [31, 32, 33, 34]]
+[SECTIONHEADING] 13A. IT Security Requirements
+13A.1 The Service Provider shall comply with the IT security requirements set out in Schedule 5A which shall form an integral part of this Agreement.
+[SECTIONHEADING] 14. Termination
+[SECTIONHEADING] 14.1 Ordinary Termination
+Either Party may terminate this Agreement by one (1) month prior notice in writing to the other Party for whatever reason.
+[SECTIONHEADING] 14.2 Extraordinary Termination
+In the event a Party materially defaults on its obligations as provided for in the Agreement, the other Party shall give the defaulting Party written notice of the said default, and if such default can be cured and the defaulting Party does not cure the said default to the satisfaction of the other Party within five (5) Business Days (or any longer period as may be agreed between the Parties) after receipt of the notice of such default, then the Party having given the notice of default may terminate the Agreement with immediate effect.
+Either Party may terminate this Agreement with immediate effect if any one of the following events occurs: (i) the other Party is unable to pay its debts as and when they fall due, (ii) an administrator, receiver or examiner is appointed to the other Party by a competent authority in case of bankruptcy, (iii) an order is made, a resolution passed or a petition presented for winding up or dissolution of the other Party or a respective examiner is appointed, (iv) the other Party goes into voluntary administration, (v) the other Party makes a compromise or arrangement with all or parts of its creditors, (vi) the other Party ceases or threatens to cease to carry on its business, or (vii) a regulatory authority demands the termination of the Agreement or a material part thereof.
+
+[CHUNK composed of sections [35, 36]]
+[SECTIONHEADING] 14.3 Consequences of Termination
+Upon termination of the Agreement :-
+(a) the Service Provider shall cease to render any Services or where only certain Services are being terminated, the relevant Services and the Service Receiver shall, where the Agreement is being terminated, pay any amount due in respect of the provided Services up and until the date of termination;
+(b) the Service Provider shall provide all assistance reasonably requested by the Service Receiver for handing over any work under this Agreement in respect of the Services to any third party as designated by the Service Receiver, and provide all information and documents relevant to the Services necessary for such designated third party or the Service Receiver to continue or follow-up on the Services or any matter in relation thereto. The Service Provider shall deliver up and return all drawings, renderings, information, files (in paper or electronic form) and
+Tha
+documents that it obtains in the course of providing the Services, or from the Service Receiver or from anyone in performance of this Agreement, to the Service Receiver or the designated third party; and
+(c) the Parties shall return to each other all confidential information, materials and data entrusted which have been provided by the other Party in connection with the Service provision, and/or, upon the other Party's request, provide a written confirmation that they have been destroyed. The Parties are entitled to keep a copy for archival purposes for the compliance of applicable laws and regulations.
+[SECTIONHEADING] 15. Force Majeure
+Neither Party shall be liable to the other for any loss or damage which may be suffered by the other Party due to any direct or indirect cause beyond the reasonable control of the Party unable to perform hereunder (including without limitation any act of God, flood, drought, lightning or fire, the act or omission of government, highways authorities or other competent authority, war, military operations, or riot) ("Force Majeure"). No act or event shall be considered a Force Majeure event unless the affected Party has taken all steps which it could reasonably be expected to have taken in order to prevent such act or event from occurring.
+If either Party is prevented or delayed in the performance of any of its obligations under the Agreement by a Force Majeure event, that Party shall forthwith serve notice in writing on the other Party specifying the nature and extent of the circumstances giving rise to the Force Majeure event and, subject to service of such notice, shall have no liability in respect of the performance of such obligations as are prevented by the Force Majeure event during the continuation of such event, and for such time after they cease as is necessary for that Party, using all reasonable endeavours, to recommence its affected operations in order for it to perform its obligations. Either Party may terminate the Agreement (or the affected portion(s) thereof) upon not less than ten (10) days written notice in the event a Force Majeure event prevents, hinders or delays its performance of any of its obligations under the Agreement for more than thirty (30) consecutive days.
+
+[CHUNK composed of sections [37, 38, 39, 40, 41]]
+[SECTIONHEADING] 16. Miscellaneous
+[SECTIONHEADING] 16.1 Assignment
+Neither Party may assign, transfer, sub-contract, sub-license or otherwise dispose of all or any of its rights or obligations under the Agreement or any part thereof to any other party without the prior written consent of the other Party.
+[SECTIONHEADING] 16.2 Third Party Rights and Beneficiaries
+Nothing expressed or referred to in this Agreement will be construed to give any person other than the Parties to this Agreement any legal or equitable benefit, right, obligation, remedy, or claim under or with respect to this Agreement or any provision of this Agreement. The Agreement and all of its provisions and conditions are for and shall be binding upon and inure to the sole and exclusive benefit of the Parties to this Agreement only and their legal representatives, respective successors and permitted assigns. Any legislation in relation to third parties' rights in a contract shall not be applicable to this Agreement.
+[SECTIONHEADING] 16.3 Further Assurances
+The Parties agree that each Party shall execute and deliver any further legal instruments and perform any acts necessary for giving full effect to the Agreement.
+[SECTIONHEADING] 16.4 Notices
+All notices and other communications to be given under or in connection with the Agreement to either Party shall be made in writing and deemed duly received by the intended recipient the next day after dispatch if delivered by hand, sent by registered mail or reputable courier service, and deemed duly received immediately if by telefax or email, in each case to the address designated by each Party in the body of the Agreement, or as otherwise notified by either Party from time to
+That
+time in the manner as set out herein.
+
+[CHUNK composed of sections [42, 43, 44]]
+[SECTIONHEADING] 16.5 Waiver
+The failure or delay by a Party in exercising any right, power or remedy provided by law or under the Agreement or any other document referred to in it shall not be qualified as a waiver or release thereof. A waiver of any breach or default in the performance of any obligation under the Agreement shall not constitute a waiver of any other existing or future breach or default and shall not affect the other terms of the Agreement. No waiver or release shall be effective unless made in writing and signed by the Party against whom such waiver or release is asserted.
+[SECTIONHEADING] 16.6 Set-off Rights
+Unless the Parties agree otherwise, neither Party shall be entitled to set-off any of its claims it may have against the other Party, or otherwise withhold the proper payment of any amount payable by one Party to the other Party under or pursuant to the Agreement, regardless if such claim has arisen under or in connection with the Agreement. This clause shall not apply to the Payment for Delay in Completion as set out in Clause 11 herein. For the avoidance of doubt, the Service Receiver shall be entitled to set-off the liquidated damages payable by the Service Provider under Clause 11 against any sum due and payable to the Service Provider.
+[SECTIONHEADING] 16.7 Severability
+If any provision (or any part thereof) of the Agreement shall be held to be illegal, invalid, unenforceable or void by any competent arbitral tribunal, court, governmental or administrative authority having jurisdiction, the other provisions of the Agreement shall not be affected thereby, but rather shall remain in full force and effect. The Parties shall endeavour to negotiate a substitute provision that best reflects the economic intentions of the Parties without being unenforceable, and shall execute all agreements and documents required in this connection.
+
+[CHUNK composed of sections [45, 46, 47]]
+[SECTIONHEADING] 16.8 Amendments
+Any modification, amendment or variation of the Agreement including this clause shall only be valid unless made in writing and duly signed by authorized signatories on behalf of each Party.
+[SECTIONHEADING] 16.9 No Partnership / Agency
+It is understood and agreed that each of the Parties is an independent party and nothing in the Agreement or any document referred to in it or any arrangement contemplated by it is intended to or shall operate (i) to create an employment or distribution relationship, partnership, trust, joint venture, limited liability company, association or other co-operative entity between the Parties for any purpose whatsoever, or (ii) to be qualified as an instruction from the Service Provider to the Service Receiver on how to run its business (iii) to authorise a Party to act as agent for the other Party, or (iv) to grant authority to act in the name or on behalf of, or to assume or enter into any obligation on behalf of, or otherwise to bind the other Party in any way (including but not limited to the making of any representation or warranty, the assumption of any obligation or liability and the exercise of any right or power).
+[SECTIONHEADING] 16.10 Entire Agreement
+The Agreement, including any Schedules and any other documents referred to and incorporated therein, constitutes the entire agreement and understanding among the Parties with respect to the subject matter thereof, and shall supersede and replace any prior oral or written documents, agreements and/or understandings between the Parties relating thereto. All references to the Agreement shall be deemed to include the Schedules thereto.
+
+[CHUNK composed of sections [48, 49, 50, 51]]
+[SECTIONHEADING] 16.11 Applicable Law & Jurisdiction
+This Agreement shall be governed by and construed in accordance with the laws of Hong Kong, and the Parties hereby submit to the exclusive jurisdiction of the Hong Kong courts.
+[SECTIONHEADING] 17. Survival
+The obligations set out in the following Clauses and Schedule(s) shall survive and remain in full force and effect notwithstanding the termination or expiry of this Agreement :-
+(a) Clauses 10, 12 and 13.1; and
+(b) Schedule 4.
+[TITLE] SCHEDULE 2 THE SERVICES
+The Services rendered by the Service Provider for the benefit of the Service Receiver are listed below:
+[SECTIONHEADING] A. Scope of Service
+1. Providing and completing to the satisfaction of the Service Receiver, a feasibility study on the possibility of having a common application for an Asia Customer Relationship Management ("CRM") system for three jurisdictions (Hong Kong, Malaysia, and Indonesia) and to provide the subsequent blueprint for implementation of such CRM system.
+2. The Service Provider shall provide the Services in accordance with the Timeline set out herein below, or such other delivery dates as notified by the Service Receiver to the Service Provider from time to time :-
+<table>
+  <tr>
+    <th>Date</th>
+    <th>:unselected:</th>
+    <th>Milestones / Deliverables</th>
+  </tr>
+  <tr>
+    <td>22nd November</td>
+    <td>:</td>
+    <td>Discovery Report - A comprehensive recommendation of business and technical requirements to implement for One Asia CRM with separate instances.</td>
+  </tr>
+  <tr>
+    <td>22nd November</td>
+    <td>:</td>
+    <td>Gap Analysis Report identifying the differences between the current system and the desired state, including necessary changes / upgrades. Harmonization process with recommendation with pros and cons across business units.</td>
+  </tr>
+  <tr>
+    <td>22nd November</td>
+    <td>:</td>
+    <td>System Design Document - A technical blueprint of the upgraded CRM system, including architecture, data flow, and integrations etc per business unit. MS License Optimization - Recommendation on the number and type of licenses required to support the use cases across the region.</td>
+  </tr>
+</table>
+
+3. The location in which the Services will be performed is [Hong Kong/Malaysia/ Indonesia ].
+
+[CHUNK composed of sections [52, 53, 54]]
+[SECTIONHEADING] B. Service Levels
+1. The Services shall be provided in a professional manner, at such level, standards and of such quality as would have been expected of being customary with industry standards across APAC, and in any event, to the reasonable satisfaction of the Service Receiver.
+2. The Service Provider shall maintain throughout the term of the Agreement, a proper and sufficient contingency plan to ensure its capability to provide the Services and to minimize the interruption or impact to the provision of the Services in the event of an emergency or significant business disruption due to a Force Majeure event or other disruptive event. The Service Provider shall ensure that the contingency plan is tested annually or from time to time as requested by the Service Receiver, and shall provide documented evidence of the contingency plan if the Service Receiver so required.
+3. The Service Receiver will regularly review and comment on the Services provided by the Service Provider. The Service Provider shall ensure that any comments on the Services are dealt with in a timely and efficient manner.
+[TITLE] SCHEDULE 3 SERVICE FEE, INVOICING & PAYMENT PROCEDURE
+[SECTIONHEADING] Service Fee(s)
+In consideration of the Services provided by the Service Provider under the Agreement, the Service Receiver shall pay a [20,000 USD, 50% at the start of the project and 50% post completion] to the Service Provider, subject to the Service Receiver's satisfaction of the Services so provided.
+The Service Fee is all-inclusive, including without limitation, any disbursement and out-of-pocket expenses necessary for providing the Services, unless such other costs or expenses are separately approved by the Service Receiver in writing prior to them being incurred by the Service Provider.
+
+[CHUNK composed of sections [55, 56, 57, 58, 59, 60]]
+[SECTIONHEADING] Invoicing and Payment Procedure
+Subject to the above payment schedule, the Service Fees are due for payment within thirty (30) days upon the Service Receiver's receipt of the invoices (in hard copy) issued by the Service Provider. The Service Provider shall send all invoices to the Service Receiver as follows (or as otherwise notified by the Service Receiver to the Service Provider) :-
+Hard copy by mail or by hand
+[·appropriate address please] Attn :
+With copy by email to [·appropriate address please]
+All payments shall be made by [cheque / Direct transfer to our account] issued by the Service Receiver (or its affiliated companies).
+[SECTIONHEADING] Payment for Delay in Completion
+[Not applicable]
+[TITLE] SCHEDULE 4 CONFIDENTIALITY AND SECURITY UNDERTAKING
+<table>
+  <tr>
+    <td>BY</td>
+    <td>Service Provider of the Agreement ("Recipient")</td>
+  </tr>
+  <tr>
+    <td>IN FAVOUR OF</td>
+    <td>Service Receiver of the Agreement ("Zurich")</td>
+  </tr>
+  <tr>
+    <td>DATE</td>
+    <td>The date on which the Agreement is signed by the Recipient.</td>
+  </tr>
+</table>
+
+[SECTIONHEADING] RECITALS
+A. The Recipient is the Service Provider in the Agreement.
+B. Zurich has disclosed or may in the future disclose confidential information and information that may be the subject of legal privilege to the Recipient for the purposes set out in this undertaking and requires the Recipient to give this undertaking to Zurich to prevent disclosure of any confidential information disclosed by Zurich without Zurich's prior written permission and in order to prevent waiver of any legal privilege attached to any confidential information disclosed by Zurich to the Recipient.
+[SECTIONHEADING] 1. INTERPRETATION
+[SECTIONHEADING] 1.1 Rules for interpreting this undertaking
+Headings are for convenience only, and do not affect interpretation. The following rules also apply in interpreting this document, except where the context makes it clear that a rule is not intended to apply.
+(a) A reference to:
+(i) a document or agreement is to that document or agreement as amended from time to time; and
+(ii) a party to this undertaking or to any other document or agreement includes a permitted substitute or assignee of that party.
+(b) A singular word includes the plural and vice versa. References to a gender can mean all genders.
+(c) The use of the word "includes" in any form does not limit the interpretation of words that follow it.
+
+[CHUNK composed of sections [61]]
+[SECTIONHEADING] 1.2 Definitions
+The following definitions apply in this undertaking.
+"Agreement" means the Agreement to which this Confidentiality and Security Undertaking is appended to.
+"Confidential Information" means any information (including communications, notes or discussions) that becomes known to the Recipient for the purpose of or in connection with the Agreement and the Engagement that:
+(a) is by its nature confidential;
+(b) is designated by Zurich or a member of the Zurich Insurance Group as confidential;
+(c) the Recipient knows or ought to know is confidential;
+(d) is Personal Data;
+(e) is legal advice prepared for or intended for Zurich or a member of the Zurich Insurance Group;
+(f) Zurich or a member of the Zurich Insurance Group indicates to the Recipient is subject to legal professional privilege;
+(g) are marketing databases and present and future business and marketing plans of Zurich or a member of the Zurich Insurance Group;
+(h) are financial, strategic or legal information about the business of Zurich or a member of the Zurich Insurance Group;
+(i) are business methods and processes, compilations, data, structures, trade secrets, operations and affairs, management systems and systems used in the generation of business of Zurich or a member of the Zurich Insurance Group;
+(j) is the Zurich Insurance Group's intellectual property; or
+(k) are materials provided by Zurich to the Recipient in connection with the provision of services under the Agreement and the creation, development or production of the deliverables thereof.
+"Data Processor" means "data processor" as defined in the Personal Data (Privacy) Ordinance (Cap.486) of the laws of Hong Kong.
+"Effective Date" means from the date on which the Recipient first receives or learns of the Confidential Information.
+"Engagement" means the engagement of the Recipient to provide services to Zurich under the Agreement or from time to time.
+"Hong Kong" shall mean the Hong Kong Special Administrative Region of the People's Republic of China.
+"Personal Data" means "personal data" as defined in the Personal Data (Privacy) Ordinance (Cap. 486) of the laws of Hong Kong.
+"Zurich Insurance Group" shall mean all the member companies of the Zurich Insurance Group Ltd.
+
+[CHUNK composed of sections [62, 63]]
+[SECTIONHEADING] 2. CONFIDENTIALITY UNDERTAKING
+[SECTIONHEADING] 2.1 Basic confidentiality undertakings
+Subject to Clause 2.2, the Recipient undertakes from the Effective Date:
+(a) to keep the Confidential Information confidential and to treat all Confidential Information acquired by the Recipient with the strictest confidentiality;
+(b) to ensure that the Confidential Information in the possession or under the control of the Recipient (whether in electronic format or hardcopy) is stored securely (in the case of electronic format by use of passwords or encryption and in case of hardcopy documents under lock and key) and that the Confidential Information is not left unattended by the Recipient on the Recipient's desk, displayed on the Recipient's computer or other place that the Recipient carries on work such that it is viewable by a third party;
+(c) to use the Confidential Information solely to perform the Recipient's duties for Zurich in respect of the Engagement and not for the Recipient's own benefit or the benefit of any third party;
+(d) to take all reasonable precautions on his part to prevent accidental disclosure of any of the Confidential Information;
+(e) not to disclose in any manner or assist in the disclosure of the Confidential Information to any person other than an officer, employee or approved contractor of the Recipient who needs to know the information, without Zurich's prior written approval;
+(f) comply with Zurich's privacy policy and any other reasonable direction given by Zurich in relation to the collection, use, disclosure and disposal of all Confidential Information that is Personal Data;
+(g) to comply with Zurich's reasonable instruction in relation to the use, disclosure and security of all legally privileged Confidential Information;
+(h) to promptly return or destroy the Confidential Information (as nominated by Zurich) when Zurich no longer engages the Recipient to provide the services set out in the Agreement, or if the Agreement is terminated, or if requested by Zurich to do so (whichever is earlier), and if required by Zurich, provide a written confirmation signed by a director of the Recipient certifying the same;
+(i) if the Recipient is required or anticipates that the Recipient may be required by law or a court order to disclose any Confidential Information, the Recipient must immediately notify Zurich and use the Recipient's best endeavours (without breach of any applicable law) to delay and resist disclosure of the requested Confidential Information until Zurich has had a reasonable opportunity to oppose disclosure by lawful means. Zurich indemnifies the Recipient against any legal fees and expenses which the Recipient may reasonably incur as a result of the Recipient complying with this Clause 2.1(i);
+(j) to notify Zurich forthwith upon becoming aware of any act or omission of the Recipient or any incident, that may lead to a breach or potential breach of this undertaking, and to take all reasonable action and fully cooperate with Zurich to mitigate any loss and damage; and
+(k) not to transfer, or allow to be transferred, any Personal Data that the Recipient collects, handles, keeps, processes, or otherwise uses as necessary to provide the services set out in the Agreement to a place outside Hong Kong unless with the consent of Zurich (not to be unreasonably withheld), and if consent is given :-
+K-1 only to transfer to such a place that is either one of the places specified by the Office of the Privacy Commissioner for Personal Data in Hong Kong from time to time, or that the Recipient has reasonable grounds to believe that such place is one, that has in force any law which is substantially similar to or serves the same purpose as the privacy laws and regulations in Hong Kong;
+K-2 to take all reasonable precautions and exercise all due diligence to ensure that the Personal Data will not in that place be collected, held, processed or used in any manner which would be in contravention of the privacy laws and regulations in Hong Kong if that place were Hong Kong; and
+K-3 to indemnify Zurich in full for any loss and damage as a result of the Recipient's breach of the duties set out herein.
+
+[CHUNK composed of sections [64, 65, 66, 67, 68]]
+[SECTIONHEADING] 2.2 When Confidential Information ceases to be confidential
+The Recipient's undertakings under Clause 2.1 will not apply to Confidential Information (other than Personal Data) which:
+(a) is or has become part of the public domain through no fault of the Recipient; or
+(b) can be proved by the Recipient to have been in the Recipient's possession without having breached any obligation of confidence to any person.
+[SECTIONHEADING] 3. RECIPIENT ACKNOWLEDGEMENTS
+The Recipient acknowledges that:
+(a) the Confidential Information will be and remain the absolute and exclusive property of Zurich; and
+(b) disclosure of the Confidential Information by the Recipient in contravention of this undertaking may cause damage to Zurich and that if the Recipient breaches his obligations to Zurich, then without limiting any other action Zurich may take, Zurich may terminate any contract for services entered into with the Recipient and take legal action against the Recipient.
+[SECTIONHEADING] 4. OTHER CONFIDENTIALITY UNDERTAKINGS
+The parties agree that if the terms of this undertaking are inconsistent with the terms of any earlier confidentiality undertaking given to Zurich by the Recipient or as in the Agreement, the terms of this undertaking shall prevail to the extent of the inconsistency.
+[SECTIONHEADING] 5. IT SECURITY UNDERTAKING
+The Recipient undertakes that it shall ensure its information technology systems are sufficiently secure and protected at all times against unauthorised access by any third party, and any other act that may result in the leakage or disclosure of the Confidential Information.
+[SECTIONHEADING] 6. DATA PROCESSOR'S DUTY
+If the Engagement involves data processing, whereby the Recipient shall fall within the meaning of a Data Processor in performing the Agreement, the Recipient undertakes to :-
+a) comply with the Personal Data (Privacy) Ordinance, including the data protection principles thereof, in particular, the requirements applicable to Data Processors;
+(b) have sufficient security measures, data protection policies and procedures in place to protect the Personal Data being processed, and ensure its staff are regularly trained, and will carry out, follow and implement the same, and comply with the obligations hereunder;
+(c) not use the Personal Data for purposes other than the purpose for which the Personal Data is entrusted to it;
+(d) not sub-contract any data processing service to any other party without the prior written consent of Zurich;
+(e) (in the case where approval of sub-contracting is given by Zurich) ensure the sub-contractor shall be bound by the same standards as set out in the Agreement and this Confidentiality and Security Undertaking;
+(f) immediately report to Zurich of any sign of abnormalities in the course of performing the data processing duty;
+(g) allow Zurich the right to audit and inspect (including at the offices of the Recipient at reasonable working hours upon prior notice) over the Recipient's handling and storing of the Personal Data; and
+(h) indemnify Zurich in full for any loss and damage as a result of the Recipient's breach of the duties set out in this Clause 6.
+This Confidentiality and Security Undertaking shall form an integral part of the Agreement.
+
+[CHUNK composed of sections [69, 70]]
+[TITLE] SCHEDULE 5A
+[TITLE] Zurich IT Security Requirements
+This schedule (the "Schedule") sets out the particulars of the IT Security Requirements to be complied with by the non-Zurich party to this Agreement (the "Non-Zurich Party"), to which this Schedule forms a part.
+In this Schedule:
+"Agreement" means the Service Agreement Agreement dated [insert date].1
+"IDP" means an Intrusion Detection System and "IPS" means an Intrusion Prevention System. IDP and IPS are computer systems designed to inspect network traffic to identify suspicious activity indicating potential attacks or attempts to gain unauthorised access.
+"Personnel" means any officer, employee, agent or contractor of the Non-Zurich Party.
+"Security Patches" means the process of updating the security configuration of a System for protection against documented security risks.
+"Signatures" means the computer code fingerprint or updates, installed on security systems and applications, to protect against virus and other known attack vectors.
+"Suitable Encryption Technologies" means technology which allows the implementation of strong encryption. Some examples include, but are not limited to: SSL certificates with AES 256bit encryption, IPSEC VPN with AES256 bit encryption, hard disk encryption software using PGP encryption, and WPA2 with AES 256 bit encryption.
+"Systems" means the computer systems (including software, hardware, operating systems, internet facilities, IT networks and information technology infrastructure) of a Non-Zurich party.
+"Zurich Data" means data that relates to Zurich, or the customers of Zurich.
+"Zurich IT systems" means the computer systems (including software, hardware, operating systems, internet facilities, IT networks and information technology infrastructure) of Zurich.
+Unless otherwise stated, all capitalised expressions referred to in this Schedule have the same meaning as defined in the Agreement.
+
+[CHUNK composed of sections [71, 72]]
+[SECTIONHEADING] a) 1) COMPUTER AND NETWORK MANAGEMENT
+1.1 The Non-Zurich Party must maintain appropriate and verifiable controls that at minimum include:
+a) protection against computer viruses, worms, Trojan horses and other malicious software;
+b) the use of security software on all critical areas of the network which may impact the performance or availability of services to Zurich;
+c) obtaining and updating Signatures and Security Patches, for all Systems, as they are released;
+d) implement, continuously monitor and maintain appropriate IDS or IPS that protect against known attacks and unauthorised access to all its Systems storing Zurich Data; and
+e) securely segregate and store Zurich Data on the Systems in a manner capable of supporting future computer investigations including forensics.
+b)
+[SECTIONHEADING] 2) DATA STORAGE AND PHYSICAL SAFEGUARDS
+2.1 All Zurich Data stored on the Systems must be encrypted while at rest, in a database or storage device(s), and in transmission, using Suitable Encryption Technologies.
+2.2 All media (including backup media) storing Zurich Data must be sanitised by the Non-Zurich Party prior to reuse, return to vendor, redeployment or recycling.
+[FOOTNOTE] This clause is only required if the term "Agreement' is not defined in the main body of Agreement
+2.3 All buildings housing IT facilities holding Zurich Data or information must be physically safeguarded against accident, attack or unauthorised access.
+2.4 The Non Zurich Party must ensure procedures are in place to safeguard:
+a) papers and removable storage media containing Zurich Data from theft or copying; and
+b) portable computers and components containing Zurich Data from theft.
+
+[CHUNK composed of sections [73, 74, 75]]
+[SECTIONHEADING] c) 3) DATA COMMUNICATIONS AND TRANSFER
+3.1 External electronic data communications and transfers between the Non-Zurich Party and between the Non- Zurich Party's software Systems and users of its Systems must be protected against electronic eavesdropping using Suitable Encryption Technologies.
+[SECTIONHEADING] d) 4) RIGHT OF ACCESS2
+4.1 The Non-Zurich Party must at Zurich's request provide Zurich with access to its Data and its Systems, policies, procedures, security logs and reports for the purpose of completing investigations related to the business of Zurich including, but not limited to:
+a) requests by law enforcement agencies and regulators;
+b) legal discovery requests;
+c) Zurich audit requirements; and
+d) internal investigations by Zurich.
+4.2 Zurich will provide reasonable notification (where practicable) prior to any investigation.
+[SECTIONHEADING] e) 5) GENERAL
+5.1 The Non-Zurich Party must:
+a) implement controls and monitor compliance with the security requirements of this Schedule on an ongoing basis;
+b) maintain security systems and procedures to protect and prevent both the Non-Zurich Party and Zurich from breaching statutory, criminal or civil obligations and security requirements arising from the management of Zurich Data by the Non-Zurich Party; and
+c) immediately report to Zurich all circumstances resulting in a breach or potential breach of confidentiality or the privacy of information involving or in connection with Zurich Data.
+5.2 Zurich may request a review of the security arrangements of the Non-Zurich Party's software or its Systems at Zurich's expense. Zurich will provide reasonable written notice and request written approval from the Non- Zurich Party before commencing any review;
+5.3 The Non-Zurich Party agrees to provide written confirmation of its compliance with its obligations in this Schedule within 30 days of receiving a written request from Zurich.
+5.4 Zurich in its sole discretion will determine whether to provide notification to any party concerning a breach of the security requirements, and the Non-Zurich Party will not reveal to any party whatsoever the occurrence of any such breach or any such potential breach in connection with this agreement, without first obtaining Zurich's prior written consent. The Non-Zurich Party will provide Zurich with all information and assistance that Zurich may reasonably require to determine whether, and if so, in what way, to provide notification to any party concerning a breach of any of the requirements.
+5.5 The Non-Zurich Party's compliance with Zurich's IT Security Requirements will be at the expense of the Non-Zurich Party.
+

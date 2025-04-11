@@ -1,0 +1,12 @@
+azure_di_endpoint: "https://chunkerpaid.cognitiveservices.azure.com/"
+#azure_di_endpoint: "https://chunker.cognitiveservices.azure.com/"
+azure_di_key: "3gcmNakFzBG8l5efTb4PphsGxmKEEktCTwNoxn1CqXvSUgxui5IDJQQJ99BDACYeBjFXJ3w3AAALACOGqo1O"
+#azure_di_key: "Ay58Zgriekf5B7PqQo2lc9V362xwjT2YMigjLXtv9zz4s2UbEzcKJQQJ99BDACYeBjFXJ3w3AAALACOGDQol"
+input_path: "D:/Python/Contract_Insights_Assignment/contracts/ASML - Senior Project Coordinator PLM (1).pdf"
+output_path: "D:/Python/Contract_Insights_Assignment/outputs/sample5.json"
+lm_studio_url: "http://localhost:1234/v1"
+embedding_model: "text-embedding-granite-embedding-278m-multilingual"
+chat_model: "gemma-3-4b-it"
+weaviate_url: "http://localhost:8080"
+weaviate_collection_name: "Document"
+min_chunk_tokens: 256

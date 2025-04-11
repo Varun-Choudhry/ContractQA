@@ -1,0 +1,6 @@
+streamlit
+openai
+weaviate-client
+azure-ai-documentintelligence
+azure-core
+PyYAML
