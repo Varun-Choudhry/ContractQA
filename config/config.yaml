@@ -1,0 +1,25 @@
+azure_di_endpoint: ""
+#azure_di_endpoint: ""
+azure_di_key: ""
+#azure_di_key: ""
+lm_studio_url: "http://localhost:1234/v1"
+embedding_model: "text-embedding-granite-embedding-278m-multilingual"
+chat_model: "gemma-3-4b-it"
+weaviate_url: "http://localhost:8080"
+weaviate_collection_name: "Document"
+min_chunk_tokens: 256
+mongo_uri: "mongodb://admin:secret@localhost:27017"
+mongo_db: "contractqa"
+mongo_collection: "documents"
+
+
+
+azure_openai_embedding_endpoint: ""
+azure_openai_embedding_key: ""
+azure_openai_embedding_model: ""
+
+azure_openai_embedding_api_version: "api-version=2023-05-15"
+azure_openai_chat_endpoint: ""
+azure_openai_chat_key: ""
+azure_openai_chat_model: "gpt-4o-mini"
+azure_openai_chat_api_version: "2025-01-01-preview"
