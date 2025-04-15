@@ -24,7 +24,29 @@ upload_result = upload(chunks, "weaviate")
 
 #return answer to user
 
+############### Weaviate Start######################
+def connect_weaviate(url, headers):
+    client = weaviate.connect(url=url,headers=headers)
 
+#Weaviate hybrid search
+def weaviate_retrieve_hybrid(collection_name, query, top_k, alpha, filters):
+    client= connect_weaviate(url, headers)
+    collection = self.client.collections.get(collection_name)
+    return collection.query.hybrid(query=query, alpha=alpha, limit=limit, filters=filters).objects
+
+def add_data_objects_batch(collection_name, data_objects):
+    client= connect_weaviate(url, headers)
+    collection = client.collections.get(collection_name)
+    with collection.batch.dynamic() as batch:
+        for data_object in data_objects:
+            batch.add_object(
+                properties={k: v for k, v in data_object.items() if k != "_additional"},
+                vector=data_object["_additional"]["vector"]
+            )
+
+############### Weaviate Ending######################
+    
+#######Chunking Start#############
 def chunker(text, size, overlap, mode):
         if mode == "fixed":
             return fixed_size_chunker(text, size, overlap)
@@ -44,13 +66,6 @@ def extract_azure_markdwon(body):
     result = poller.result()
     return result.as_dict()
     
-def get_embedding(text:str):
-    #placeholder
-    return ""
-
-def get_embedding_batch(texts: list):
-    #placeholder
-    return [""]
 
 #Need to decouple weaviate data object into a separate function
 def fixed_size_chunker(text , chunk_size: int = 256, overlap: int = 20):    
@@ -69,7 +84,6 @@ def fixed_size_chunker(text , chunk_size: int = 256, overlap: int = 20):
         chunks.append(chunk_object)
         chunk_count += 1
     return chunks
-
 
 # Current implementation is very basic and inefficient. Will consider a two pointer approach to improve it.
 # Need to identify a way to derive an acceptable cosine similarity threshold from the document itself for improved performance
@@ -106,3 +120,25 @@ def azure_chunker()
 
 #possible solution, there are some 'paragraphs' which have a role in them, like title, section heading, the offset of these paragraphs could be use to as a breakpoint without having to traverse sections which is closer to a tree and would be difficult to flatten to something suitable for vector embeddings without making it unneccesarily complex.
 #Need to analyze how tables structures would fit into this
+#######Chunking End#############
+
+
+###### llm calls start#####
+
+def get_embedding(text:str):
+    #placeholder
+    return ""
+
+def get_embedding_batch(texts: list):
+    #placeholder
+    return [""]
+    
+def generate_text(prompt, model, system_prompt):
+    #placeholder
+    return ""
+    
+###### llm calls end#####
+
+##### Repacking#####
+
+#### Reranking ######
