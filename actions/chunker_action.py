@@ -1,5 +1,7 @@
 from pydantic import BaseModel
 from typing import Optional
+from chunker.chunker import chunk_text
+from actions.action import Action
 
 class ChunkerInputSchema(InputSchema):
     text: str
@@ -21,5 +23,5 @@ class ChunkerOutputSchema(OutputSchema):
 class ChunkerAction(Action):
     
     def execute(self, schema: ChunkerInputSchema) -> ChunkerOutputSchema:
-        return ChunkerOutputSchema(chunks=chunker(schema.text,schema.chunk_size,schema.overlap,schema.mode))
+        return ChunkerOutputSchema(chunks=chunk_text(schema.text,schema.chunk_size,schema.overlap,schema.mode))
     
