@@ -12,12 +12,3 @@ class Action(ABC):
     @abstractmethod
     def execute(self, input_data: InputSchema) -> OutputSchema:
         pass
-
-    @abstractmethod
-    def get_input_schema(self) -> InputSchema:
-        pass
-    
-    @abstractmethod
-    def get_output_schema(self) -> OutputSchema:
-        pass
-
