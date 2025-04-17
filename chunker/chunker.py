@@ -1,10 +1,10 @@
 import re
 from sklearn.metrics.pairwise import cosine_similarity
-    
+import tiktoken    
 def chunk_text(text, size=0, overlap=0, mode='semantic'):
         if mode == "fixed":
             return fixed_size_chunker(text, size, overlap)
-        elif mode == "semantic"
+        elif mode == "semantic":
             return breakpoint_semantic_chunker(text)
         return
 
@@ -17,12 +17,8 @@ def fixed_size_chunker(text , chunk_size: int = 256, overlap: int = 20):
     chunk_count = 1
     for i in range(0, len(token_text), chunk_size - overlap):
         chunk_text = encoder.decode(token_text[i:i+chunk_size])
-        chunk_object = {
-            "content": chunk_text ,
-            "chunk_number": chunk_count,
-            "_additional_": {"vector": get_embedding(chunk_text)}
-        }
-        chunks.append(chunk_object)
+       
+        chunks.append(chunk_text)
         chunk_count += 1
     return chunks
 
@@ -53,7 +49,8 @@ def sentence_split(text: str):
     return [s.strip() for s in sentences if s.strip()]
     
 #Potential chunking implementation which leverages the insights provided by Azure Document Intelligence to create chunks which could better preserve logical groupings
-def azure_chunker()   
+def azure_chunker():
+        return
 
 #Azure DI has a dict of keys paragraphs, sections and tables, in context of this service paragraphs can also mean words, its the smallest unit of classification in Azure DI when it comes to how sections are mapped. Secttions have a list called elements which represent references to other sections/paragraphs as strings like "/sections/10", "/paragraphs/25" or "/tables/3". It also returns the whole document as a string
 #Each of these groupings have an offset and length attached to them, which could be used to simple split the text string into groups. For example, chunk 1 could be text[<offset of section1>:offset+ length]. Due to the hiearchical nature of sections, need to find a better way which avoids redundancies.  

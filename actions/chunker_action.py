@@ -1,27 +1,27 @@
-from pydantic import BaseModel
+from pydantic import root_validator
 from typing import Optional
 from chunker.chunker import chunk_text
-from actions.action import Action
+from actions.action import Action, InputSchema, OutputSchema
 
 class ChunkerInputSchema(InputSchema):
-    text: str
-    mode: str
-    chunk_size: Optional[int]
-    overlap: Optional[int]
+    content: str
+    mode: str = "fixed"
+    chunk_size: Optional[int] = 250
+    overlap: Optional[int] = 20
     
-    @root_validator
-    def validate_schema(cls, values):
-        mode = values.get('mode')
-        chunk_size = values.get('chunk_size')
-        if mode == "fixed" and not chunk_size:
-            raise ValueError
-        return values    
-
+  
 class ChunkerOutputSchema(OutputSchema):
     chunks: list[str]  #or json depending on the metadata along with chunk
     
 class ChunkerAction(Action):
     
+    
+    InputSchema = ChunkerInputSchema  # Ensure InputSchema is assigned
+    OutputSchema = ChunkerOutputSchema  # Same for OutputSchema
+ 
+    def __init__(self, config=None):
+        self.config = config  
+        
     def execute(self, schema: ChunkerInputSchema) -> ChunkerOutputSchema:
-        return ChunkerOutputSchema(chunks=chunk_text(schema.text,schema.chunk_size,schema.overlap,schema.mode))
+        return ChunkerOutputSchema(chunks=chunk_text(schema.content,schema.chunk_size,schema.overlap,schema.mode))
     

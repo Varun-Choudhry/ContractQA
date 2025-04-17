@@ -1,0 +1,17 @@
+chunker_action:
+  class_path: actions.chunker_action.ChunkerAction
+
+convert_document_action:
+  class_path: actions.convert_document_action.ConvertDocumentAction
+
+embedder_action:
+  class_path: actions.embedder_action.EmbedderAction
+
+final_answer_action:
+  class_path: actions.final_answer_action.FinalAnswerAction
+
+hybrid_retrieval_action:
+  class_path: actions.hybrid_retrieval_action.HybridRetrievalAction
+
+vector_upload_action:
+  class_path: actions.vector_upload_action.VectorUploadAction

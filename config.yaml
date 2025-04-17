@@ -1,0 +1,10 @@
+azure:
+  subscription_key: "your-azure-subscription-key"
+  endpoint: "your-azure-endpoint"
+
+weaviate:
+  url: "http://localhost:8080"
+  index_name: "documents"
+
+embedder_provider: "azure"
+weaviate_provider: "weaviate_instance"

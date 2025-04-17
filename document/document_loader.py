@@ -4,17 +4,23 @@ from azure.ai.documentintelligence import DocumentIntelligenceClient
 from azure.ai.documentintelligence.models import AnalyzeDocumentRequest, DocumentContentFormat, AnalyzeResult
 from azure.core.credentials import AzureKeyCredential
     
-def convert_document(document, mode):
+def convert_document(document="    ", mode="docling"):
     if mode == "azure":
-        return convert_with_azure(document)
+        response = convert_with_azure(document)
+        print(type(response))
+        return response
     elif mode == "docling":
-        return convert_with_docling(document)
+        response = convert_with_docling(document)
+        print(type(response))
+        
+        return response
         
         
 def convert_with_docling(document):
     source = DocumentStream(name="my_doc.pdf", stream=document)
     converter = DocumentConverter()
     result = converter.convert(source)
+    
     return result.document.export_to_markdown()
     
 def covert_with_azure(document):
