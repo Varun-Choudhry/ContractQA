@@ -4,9 +4,9 @@ from actions.action import Action, InputSchema, OutputSchema
 
 
 class HybridRetrievalInputSchema(InputSchema):
-    embedding: list[float]
-    alpha: float
-    top_k: int
+    embeddings: list[list[float]]
+    alpha: float = 0.3
+    top_k: int = 5
     provider: str
         
 
@@ -18,5 +18,5 @@ class HybridRetrievalAction(Action):
     OutputSchema = HybridRetrievalOutputSchema 
     
     def execute(self, schema: HybridRetrievalInputSchema) -> HybridRetrievalOutputSchema:
-        return HybridRetrievalOutputSchema(results=hybrid_search(schema.embedding,schema.alpha,schema.top_k, schema.provider))
+        return HybridRetrievalOutputSchema(results=hybrid_search(schema.embeddings[0],schema.alpha,schema.top_k, schema.provider))
     

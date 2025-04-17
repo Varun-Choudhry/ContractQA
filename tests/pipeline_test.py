@@ -21,17 +21,28 @@ pipeline = [
     "vector_upload_action"
 ]
 
+pipeline2 = ["hybrid_retrieval_action","final_answer_action"]
+
 def test_pipeline():
     first_input = {
         "document": load_sample_document(),
         "mode": "docling", 
     }
+    second_input = {
+        "chunks" : ["Name all the parties in the contract"],
+        "provider" : "weaviate"
+        }
     
     orchestrator = Orchestrator(pipeline=pipeline, first_input=first_input)
 
     final_output = orchestrator.run()
 
     print("Final Output:", final_output)
+
+    orchestrator2 = Orchestrator(pipeline=pipeline2,first_input=second_input)
+    
+
+
 
 if __name__ == "__main__":
     test_pipeline()
