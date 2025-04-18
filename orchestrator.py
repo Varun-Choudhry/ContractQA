@@ -23,7 +23,6 @@ class Orchestrator:
         return registry
     
     def load_config(self):
-        import yaml
         with open("config.yaml") as f:
             return yaml.safe_load(f)    
     
@@ -31,14 +30,22 @@ class Orchestrator:
         return
         #check if all actions exist in registry and whether input output of the sequence is compatible
     
-    def init_actions(self, pipeline_names):
+    def init_actions(self, pipeline_steps):
         actions = []
-        for name in pipeline_names:
-            action_cls = self.registry[name]
+        for step in pipeline_steps:
+            action_key, *params = step.split(":")
+            action_cls = self.registry[action_key]
 
-            # Optional: Inject config if `__init__` takes one
+            mode = params[0] if params else None
+            config_lookup_key = getattr(action_cls, "config_key", None)
+            if config_lookup_key and mode:
+                action_config = self.config.get(config_lookup_key, {}).get(mode, {})
+            elif config_lookup_key:
+                action_config = self.config.get(config_lookup_key, {})
+            else:
+                action_config = {}
             try:
-                action = action_cls(config=self.config)
+                action = action_cls(config=action_config)
             except TypeError:
                 action = action_cls()
 
