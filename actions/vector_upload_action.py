@@ -6,6 +6,7 @@ import weaviate
 
 class VectorUploadInputSchema(InputSchema):
     embeddings: list[list[float]]
+    chunks: list[str]
     provider: str = "weaviate"
     metadata: dict = []
      
@@ -18,21 +19,22 @@ class VectorUploadAction(Action):
     OutputSchema = VectorUploadOutputSchema 
     
     def execute(self, schema: VectorUploadInputSchema) -> VectorUploadOutputSchema:
-        return VectorUploadOutputSchema(result=upload_vectors(schema.embeddings,schema.provider,schema.metadata))
+        return VectorUploadOutputSchema(result=upload_vectors(schema.embeddings,schema.provider,schema.metadata, schema.chunks))
     
     
-def upload_vectors(embeddings, provider, metadata):
+def upload_vectors(embeddings, provider, metadata, chunks):
     if provider == "weaviate":
-        return upload_to_weaviate(embeddings, metadata)
+        return upload_to_weaviate(embeddings, metadata, chunks)
     return    
         
         
-def upload_to_weaviate(embeddings, metadata):
+def upload_to_weaviate(embeddings, metadata, chunks):
     client = weaviate.connect_to_local()
-    collection = client.collections.get("Document")
+    collection = client.collections.get("Document1")
     with collection.batch.dynamic() as batch:
-        for embedding in embeddings:
+        for i in range(0,len(embeddings)):
             batch.add_object(
-                vector=embedding
+                properties={"body": chunks[i]},
+                vector=embeddings[i]
             )    
     return True

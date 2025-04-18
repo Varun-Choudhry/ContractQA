@@ -11,11 +11,11 @@ class EmbedderInputSchema(InputSchema):
 
 class EmbedderOutputSchema(OutputSchema):
     embeddings: list[list[float]]  #or json depending on the metadata along with chunk
-    
+    chunks: list[str]
 class EmbedderAction(Action):
     InputSchema = EmbedderInputSchema  
     OutputSchema = EmbedderOutputSchema 
     
     def execute(self, schema: EmbedderInputSchema) -> EmbedderOutputSchema:
-        return EmbedderOutputSchema(embeddings=get_embedding_batch(schema.chunks,schema.provider,schema.model))
+        return EmbedderOutputSchema(embeddings=get_embedding_batch(schema.chunks,schema.provider,schema.model),chunks=schema.chunks)
     
