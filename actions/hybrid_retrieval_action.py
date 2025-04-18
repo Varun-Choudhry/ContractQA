@@ -7,7 +7,7 @@ class HybridRetrievalInputSchema(InputSchema):
     embeddings: list[list[float]]
     alpha: float = 0.3
     top_k: int = 5
-    provider: str
+    provider: str = "weaviate"
         
 
 class HybridRetrievalOutputSchema(OutputSchema):

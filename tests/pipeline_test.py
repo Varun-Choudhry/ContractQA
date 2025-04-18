@@ -21,7 +21,7 @@ pipeline = [
     "vector_upload_action"
 ]
 
-pipeline2 = ["hybrid_retrieval_action","final_answer_action"]
+pipeline2 = ["embedder_action","hybrid_retrieval_action","final_answer_action"]
 
 def test_pipeline():
     first_input = {
@@ -30,7 +30,7 @@ def test_pipeline():
     }
     second_input = {
         "chunks" : ["Name all the parties in the contract"],
-        "provider" : "weaviate"
+        "provider" : "azure"
         }
     
     orchestrator = Orchestrator(pipeline=pipeline, first_input=first_input)
@@ -42,6 +42,9 @@ def test_pipeline():
     orchestrator2 = Orchestrator(pipeline=pipeline2,first_input=second_input)
     
 
+    final_output = orchestrator2.run()        
+    
+    print("Final Output:", final_output)
 
 
 if __name__ == "__main__":
