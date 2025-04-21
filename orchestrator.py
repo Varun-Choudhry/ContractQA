@@ -1,16 +1,14 @@
 import yaml
 import importlib
 
-
 class Orchestrator:
     def __init__(self, pipeline, first_input):
         self.config = self.load_config()
-        self.registry = self.load_registry()  
-        
-        self.pipeline = self.init_actions(pipeline)  
-        self.first_input = first_input 
-        
-    def load_registry(self):  # FIXED NAME
+        self.registry = self.load_registry()
+        self.pipeline = self.init_actions(pipeline)
+        self.first_input = first_input
+
+    def load_registry(self): 
         with open('registry.yaml', 'r') as file:
             raw_registry = yaml.safe_load(file)
 
@@ -21,37 +19,27 @@ class Orchestrator:
             cls = getattr(module, class_name)
             registry[name] = cls
         return registry
-    
+
     def load_config(self):
         with open("config.yaml") as f:
-            return yaml.safe_load(f)    
-    
-    def validate_pipeline():
-        return
-        #check if all actions exist in registry and whether input output of the sequence is compatible
-    
+            return yaml.safe_load(f)  
+
     def init_actions(self, pipeline_steps):
         actions = []
         for step in pipeline_steps:
-            action_key, *params = step.split(":")
+            action_key, mode = step.split(":")
+            #action_key=convert_document_action
+            #mode=semantic
             action_cls = self.registry[action_key]
 
-            mode = params[0] if params else None
-            config_lookup_key = getattr(action_cls, "config_key", None)
-            if config_lookup_key and mode:
-                action_config = self.config.get(config_lookup_key, {}).get(mode, {})
-            elif config_lookup_key:
-                action_config = self.config.get(config_lookup_key, {})
-            else:
-                action_config = {}
             try:
-                action = action_cls(config=action_config)
+                action = action_cls(config=self.config, mode=mode)
             except TypeError:
                 action = action_cls()
 
             actions.append(action)
         return actions
-    
+
     def run(self):
         input_data = self.first_input
         for action in self.pipeline:
@@ -59,4 +47,3 @@ class Orchestrator:
             output_model = action.execute(input_model)
             input_data = output_model.model_dump()
         return input_data
-        

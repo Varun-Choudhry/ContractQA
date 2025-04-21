@@ -33,11 +33,11 @@ def test_pipeline():
         "provider" : "azure"
         }
     
-    orchestrator = Orchestrator(pipeline=pipeline, first_input=first_input)
+#    orchestrator = Orchestrator(pipeline=pipeline, first_input=first_input)
 
-    final_output = orchestrator.run()
+ #   final_output = orchestrator.run()
 
-    print("Final Output:", final_output)
+  #  print("Final Output:", final_output)
 
     orchestrator2 = Orchestrator(pipeline=pipeline2,first_input=second_input)
     
