@@ -5,10 +5,11 @@ from openai import AzureOpenAI
 def get_embedding_batch(chunks, mode, config):
     print("Provider for embeddings:"+ mode)
     if mode == "azure":
-        return get_embedding_batch_azure(chunks, config.get(mode))
+        return get_embedding_batch_azure(chunks, config)
     return    
         
 def get_embedding_batch_azure(texts, config):
+    
     print(f"Calling Azure OpenAI embedding API with model: {config.get("model")}")
     all_embeddings = []
    

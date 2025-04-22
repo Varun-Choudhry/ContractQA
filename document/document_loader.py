@@ -4,7 +4,7 @@ from azure.ai.documentintelligence import DocumentIntelligenceClient
 from azure.ai.documentintelligence.models import AnalyzeDocumentRequest, DocumentContentFormat, AnalyzeResult
 from azure.core.credentials import AzureKeyCredential
     
-def convert_document(document="    ", mode="docling", config):
+def convert_document(document, mode, config):
     if mode == "azure":
         response = convert_with_azure(document,config)
         print(type(response))

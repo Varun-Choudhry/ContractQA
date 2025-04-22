@@ -7,7 +7,6 @@ import weaviate
 class VectorUploadInputSchema(InputSchema):
     embeddings: list[list[float]]
     chunks: list[str]
-    provider: str = "weaviate"
     metadata: dict = []
      
 
@@ -22,7 +21,7 @@ class VectorUploadAction(Action):
         self.mode = mode
     
     def execute(self, schema: VectorUploadInputSchema) -> VectorUploadOutputSchema:
-        return VectorUploadOutputSchema(result=upload_vectors(schema.embeddings,schema.provider,schema.metadata, schema.chunks))
+        return VectorUploadOutputSchema(result=upload_vectors(schema.embeddings,self.mode,schema.metadata, schema.chunks))
     
     
 def upload_vectors(embeddings, provider, metadata, chunks):

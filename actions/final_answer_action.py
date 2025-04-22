@@ -19,7 +19,7 @@ class FinalAnswerAction(Action):
         self.mode = mode
 
     def execute(self, schema: FinalAnswerInputSchema) -> FinalAnswerOutputSchema:
-        return FinalAnswerOutputSchema(result=get_completion(schema.query,self.mode,schema.results,self.system_prompt,self.config.get(mode)))
+        return FinalAnswerOutputSchema(result=get_completion(schema.query,self.mode,schema.results,self.system_prompt,self.config.get(self.mode)))
 
 
 def get_completion(query, provider, context, system_prompt, config):
