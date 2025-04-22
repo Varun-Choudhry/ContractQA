@@ -1,18 +1,20 @@
 import re
 from sklearn.metrics.pairwise import cosine_similarity
 import tiktoken    
-def chunk_text(text, size=0, overlap=0, mode='semantic'):
+def chunk_text(text, config, mode):
         if mode == "fixed":
-            return fixed_size_chunker(text, size, overlap)
+            return fixed_size_chunker(text, config)
         elif mode == "semantic":
             return breakpoint_semantic_chunker(text)
         return
 
 #Need to decouple weaviate data object into a separate function
-def fixed_size_chunker(text , chunk_size: int = 256, overlap: int = 20):    
+def fixed_size_chunker(text , config):    
     encoder = tiktoken.encoding_for_model("gpt-4o")
     token_text = encoder.encode(text)
     chunks = []
+    chunk_size= config.get("chunk_size")
+    overlap - config.get("overlap")
     encoder = tiktoken.encoding_for_model("gpt-4o")
     chunk_count = 1
     for i in range(0, len(token_text), chunk_size - overlap):

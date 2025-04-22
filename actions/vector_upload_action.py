@@ -17,6 +17,9 @@ class VectorUploadOutputSchema(OutputSchema):
 class VectorUploadAction(Action):
     InputSchema = VectorUploadInputSchema  
     OutputSchema = VectorUploadOutputSchema 
+    def __init__(self, config, mode):
+        self.config = config.get("vector_db")
+        self.mode = mode
     
     def execute(self, schema: VectorUploadInputSchema) -> VectorUploadOutputSchema:
         return VectorUploadOutputSchema(result=upload_vectors(schema.embeddings,schema.provider,schema.metadata, schema.chunks))

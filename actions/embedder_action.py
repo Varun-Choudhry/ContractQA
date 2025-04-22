@@ -14,9 +14,9 @@ class EmbedderAction(Action):
     InputSchema = EmbedderInputSchema  
     OutputSchema = EmbedderOutputSchema 
     def __init__(self, config, mode):
-        self.config = config.get('embedder')
+        self.config = config.get("embedder")
         self.mode = mode
     
     def execute(self, schema: EmbedderInputSchema) -> EmbedderOutputSchema:
-        return EmbedderOutputSchema(embeddings=get_embedding_batch(schema.chunks,self.mode,self.config),chunks=schema.chunks)
+        return EmbedderOutputSchema(embeddings=get_embedding_batch(schema.chunks,self.mode.get(mode),self.config),chunks=schema.chunks)
     

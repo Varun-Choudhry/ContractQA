@@ -20,8 +20,15 @@ chunker:
         chunk_size: 250
     semantic: {}  # No additional config needed for semantic mode
 
-chat_completion:
+llm:
     azure:
         model: "chat_model"
         api_key: "your_api_key"
         endpoint: "https://chat-api.com"
+	api_version: "2024-12-01-preview"
+        
+document:
+    azure: {}
+    docling: {}
+    
+           

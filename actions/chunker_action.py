@@ -5,9 +5,6 @@ from actions.action import Action, InputSchema, OutputSchema
 
 class ChunkerInputSchema(InputSchema):
     content: str
-    mode: str = "fixed"
-    chunk_size: Optional[int] = 250
-    overlap: Optional[int] = 20
     
   
 class ChunkerOutputSchema(OutputSchema):
@@ -19,9 +16,10 @@ class ChunkerAction(Action):
     InputSchema = ChunkerInputSchema  # Ensure InputSchema is assigned
     OutputSchema = ChunkerOutputSchema  # Same for OutputSchema
  
-    def __init__(self, config=None):
-        self.config = config  
+    def __init__(self, config, mode):
+        self.config = config.get("chunker")
+        self.mode = mode
         
     def execute(self, schema: ChunkerInputSchema) -> ChunkerOutputSchema:
-        return ChunkerOutputSchema(chunks=chunk_text(schema.content,schema.chunk_size,schema.overlap,schema.mode))
+        return ChunkerOutputSchema(chunks=chunk_text(schema.content,self.config.get(mode),self.mode))
     

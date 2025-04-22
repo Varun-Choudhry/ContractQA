@@ -17,6 +17,10 @@ class HybridRetrievalOutputSchema(OutputSchema):
 class HybridRetrievalAction(Action):
     InputSchema = HybridRetrievalInputSchema  
     OutputSchema = HybridRetrievalOutputSchema 
+    def __init__(self, config, mode):
+        self.config = config.get("vector_db")
+        self.mode = mode
+    
     
     def execute(self, schema: HybridRetrievalInputSchema) -> HybridRetrievalOutputSchema:
         return HybridRetrievalOutputSchema(results=hybrid_search(schema.embeddings[0],schema.alpha,schema.top_k, schema.provider),query=schema.chunks[0])
