@@ -21,5 +21,5 @@ class ChunkerAction(Action):
         self.mode = mode
         
     def execute(self, schema: ChunkerInputSchema) -> ChunkerOutputSchema:
-        return ChunkerOutputSchema(chunks=chunk_text(schema.content,self.config.get(mode),self.mode))
+        return ChunkerOutputSchema(chunks=chunk_text(schema.content,self.config.get(self.mode),self.mode))
     

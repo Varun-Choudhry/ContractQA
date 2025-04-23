@@ -3,7 +3,7 @@ import io
 from orchestrator import Orchestrator
 
 pipeline = [
-    "convert_document_action:semantic",
+    "convert_document_action:docling",
     "chunker_action:fixed",
     "embedder_action:azure",
     "vector_upload_action:weaviatelocal"
@@ -52,3 +52,4 @@ with tab2:
 
             orchestrator = Orchestrator(pipeline=pipeline2, first_input=first_input)
             output = orchestrator.run()
+            st.write(output)

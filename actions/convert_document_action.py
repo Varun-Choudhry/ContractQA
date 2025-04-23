@@ -20,5 +20,5 @@ class ConvertDocumentAction(Action):
         self.mode = mode
             
     def execute(self, schema: ConvertDocumentInputSchema) -> ConvertDocumentOutputSchema:
-        return ConvertDocumentOutputSchema(content=convert_document(schema.document, self.mode, self.config.get(mode)))
+        return ConvertDocumentOutputSchema(content=convert_document(schema.document, self.mode, self.config.get(self.mode)))
     

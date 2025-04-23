@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from typing import Optional
 from actions.action import Action, InputSchema, OutputSchema
-import weaviate
+from db.upload import upload_vectors
 
 
 class VectorUploadInputSchema(InputSchema):
@@ -24,19 +24,3 @@ class VectorUploadAction(Action):
         return VectorUploadOutputSchema(result=upload_vectors(schema.embeddings,self.mode,schema.metadata, schema.chunks, self.config.get(self.mode)))
     
     
-def upload_vectors(embeddings, provider, metadata, chunks, config):
-    if provider == "weaviatelocal":
-        return upload_to_weaviate(embeddings, metadata, chunks, config)
-    return    
-        
-        
-def upload_to_weaviate(embeddings, metadata, chunks, config):
-    client = weaviate.connect_to_local()
-    collection = client.collections.get(config.get("collection"))
-    with collection.batch.dynamic() as batch:
-        for i in range(0,len(embeddings)):
-            batch.add_object(
-                properties={"body": chunks[i]},
-                vector=embeddings[i]
-            )    
-    return True

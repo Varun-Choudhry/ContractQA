@@ -14,7 +14,7 @@ def fixed_size_chunker(text , config):
     token_text = encoder.encode(text)
     chunks = []
     chunk_size= config.get("chunk_size")
-    overlap - config.get("overlap")
+    overlap = config.get("overlap")
     encoder = tiktoken.encoding_for_model("gpt-4o")
     chunk_count = 1
     for i in range(0, len(token_text), chunk_size - overlap):
