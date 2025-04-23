@@ -20,7 +20,7 @@ class HybridRetrievalAction(Action):
     
     
     def execute(self, schema: HybridRetrievalInputSchema) -> HybridRetrievalOutputSchema:
-        return HybridRetrievalOutputSchema(results=hybrid_search(schema.embeddings[0], self.mode,self.config.get(self.mode)),query=schema.chunks[0])
+        return HybridRetrievalOutputSchema(results=hybrid_search(schema.chunks[0],schema.embeddings[0], self.mode,self.config.get(self.mode)),query=schema.chunks[0])
     
     
 

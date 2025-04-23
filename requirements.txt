@@ -1,0 +1,10 @@
+pydantic
+sklearn
+tiktoken
+weaviate-client
+docling
+azure-ai-documentintelligence
+azure-core
+openai
+pyyaml
+streamlit
