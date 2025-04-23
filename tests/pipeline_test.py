@@ -21,7 +21,7 @@ pipeline = [
     "vector_upload_action"
 ]
 
-pipeline2 = ["embedder_action","hybrid_retrieval_action","final_answer_action"]
+pipeline2 = ["embedder_action:azure","hybrid_retrieval_action:weaviatelocal","final_answer_action:azure"]
 
 def test_pipeline():
     first_input = {

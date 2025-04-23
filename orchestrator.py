@@ -28,8 +28,6 @@ class Orchestrator:
         actions = []
         for step in pipeline_steps:
             action_key, mode = step.split(":")
-            #action_key=convert_document_action
-            #mode=semantic
             action_cls = self.registry[action_key]
 
             try:

@@ -5,9 +5,6 @@ import weaviate
 
 class HybridRetrievalInputSchema(InputSchema):
     embeddings: list[list[float]]
-    alpha: float = 0.3
-    top_k: int = 5
-    provider: str = "weaviate"
     chunks: list[str]        
 
 class HybridRetrievalOutputSchema(OutputSchema):
