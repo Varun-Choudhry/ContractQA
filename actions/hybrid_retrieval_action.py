@@ -23,21 +23,22 @@ class HybridRetrievalAction(Action):
     
     
     def execute(self, schema: HybridRetrievalInputSchema) -> HybridRetrievalOutputSchema:
-        return HybridRetrievalOutputSchema(results=hybrid_search(schema.embeddings[0],schema.alpha,schema.top_k, schema.provider),query=schema.chunks[0])
+        return HybridRetrievalOutputSchema(results=hybrid_search(schema.embeddings[0], self.mode,self.config.get(self.mode)),query=schema.chunks[0])
     
     
-def hybrid_search(embedding, alpha,top_k, provider):
-    if provider=="weaviate":
-        return hybrid_search_weaviate(embedding, alpha,top_k)
+def hybrid_search(embedding, provider, config):
+    if provider=="weaviatelocal":
+        return hybrid_search_weaviate(embedding, config.get('alpha'),config.get('top_k'), config)
     return
 
-def hybrid_search_weaviate(embedding, alpha,top_k):
+def hybrid_search_weaviate(embedding, alpha,top_k, config):
     client = weaviate.connect_to_local()
-    collection = client.collections.get("Document1")
+    collection = client.collections.get(config.get('collection'))
     response = collection.query.near_vector(
         near_vector=embedding,
         limit=top_k)
     results = [obj.properties.get("body", "") for obj in response.objects]            
+    client.close()
     return results    
     
     
