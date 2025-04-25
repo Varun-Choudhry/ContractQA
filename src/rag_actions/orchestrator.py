@@ -1,15 +1,21 @@
 import yaml
 import importlib
-
+import os
 class Orchestrator:
+    _config = None  
+    _config_path = None
+
+    
     def __init__(self, pipeline, first_input):
-        self.config = self.load_config()
         self.registry = self.load_registry()
         self.pipeline = self.init_actions(pipeline)
         self.first_input = first_input
 
     def load_registry(self): 
-        with open('registry.yaml', 'r') as file:
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        registry_path = os.path.join(base_dir, 'registry.yaml')
+
+        with open(registry_path, 'r') as file:
             raw_registry = yaml.safe_load(file)
 
         registry = {}
@@ -19,10 +25,22 @@ class Orchestrator:
             cls = getattr(module, class_name)
             registry[name] = cls
         return registry
+    
+    @classmethod
+    def set_config(cls, path="config.yaml"):
+        """Set the global config path and load config."""
+        if not os.path.exists(path):
+            raise FileNotFoundError(f"Config file not found at: {path}")
+        with open(path, "r") as f:
+            cls._config = yaml.safe_load(f)
+        cls._config_path = path
+        
 
-    def load_config(self):
-        with open("config.yaml") as f:
-            return yaml.safe_load(f)  
+    @classmethod
+    def get_config(cls):
+        if cls._config is None:
+            raise RuntimeError
+        return cls._config
 
     def init_actions(self, pipeline_steps):
         actions = []
@@ -31,7 +49,7 @@ class Orchestrator:
             action_cls = self.registry[action_key]
 
             try:
-                action = action_cls(config=self.config, mode=mode)
+                action = action_cls(config=self.get_config(), mode=mode)
             except TypeError:
                 action = action_cls()
 

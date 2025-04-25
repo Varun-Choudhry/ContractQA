@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from typing import Optional
-from actions.action import Action, InputSchema, OutputSchema
-from db.upload import upload_vectors
+from src.rag_actions.actions.action import Action, InputSchema, OutputSchema
+from src.rag_actions.db.upload import upload_vectors
 
 
 class VectorUploadInputSchema(InputSchema):

@@ -1,7 +1,9 @@
 import streamlit as st
 import io
-from orchestrator import Orchestrator
+from src.rag_actions.orchestrator import Orchestrator
 
+
+Orchestrator.set_config("D:\Python\config.yaml") 
 pipeline = [
     "convert_document_action:docling",
     "chunker_action:fixed",

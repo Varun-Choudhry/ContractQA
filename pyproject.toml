@@ -1,0 +1,32 @@
+[project]
+name = "rag_actions"
+version = "0.1.0"
+description = "Standardized RAG pipeline abstraction"
+authors = [
+  { name="Varun Choudhry", email="varun.choudhry3@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+dependencies = [
+  "pydantic",
+  "scikit-learn",  
+  "tiktoken",
+  "weaviate-client",
+  "docling",
+  "azure-ai-documentintelligence",
+  "azure-core",
+  "openai",
+  "pyyaml",
+  "streamlit"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+sources = ["src"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/rag_actions"] 

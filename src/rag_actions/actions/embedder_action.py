@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from typing import Optional
-from actions.action import Action, InputSchema, OutputSchema
-from llm.embedding import get_embedding_batch
+from src.rag_actions.actions.action import Action, InputSchema, OutputSchema
+from src.rag_actions.llm.embedding import get_embedding_batch
 
 class EmbedderInputSchema(InputSchema):
     chunks: list[str]

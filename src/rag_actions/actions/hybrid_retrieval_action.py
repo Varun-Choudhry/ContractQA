@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from typing import Optional
-from actions.action import Action, InputSchema, OutputSchema
-from retrieval.retrieval import hybrid_search
+from src.rag_actions.actions.action import Action, InputSchema, OutputSchema
+from src.rag_actions.retrieval.retrieval import hybrid_search
 
 class HybridRetrievalInputSchema(InputSchema):
     embeddings: list[list[float]]

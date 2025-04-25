@@ -1,7 +1,7 @@
 from pydantic import root_validator
 from typing import Optional
-from chunker.chunker import chunk_text
-from actions.action import Action, InputSchema, OutputSchema
+from src.rag_actions.chunker.chunker import chunk_text
+from src.rag_actions.actions.action import Action, InputSchema, OutputSchema
 
 class ChunkerInputSchema(InputSchema):
     content: str

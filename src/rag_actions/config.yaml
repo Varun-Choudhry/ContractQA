@@ -1,0 +1,39 @@
+embedder:
+    azure:
+        model: "text-embedding-large-model"  # Placeholder for model name
+        endpoint: "https://your-azure-endpoint/"  # Placeholder for Azure endpoint
+        api_key: "your-api-key"  # Placeholder for Azure API key
+        api_version: "2024-12-01-preview"  # Placeholder for API version
+    lmstudio: 
+        model: "text-embedding-your-model"  # Placeholder for model name
+        endpoint: "http://your-lmstudio-endpoint"  # Placeholder for local endpoint
+        
+vector_db:
+    weaviatelocal:
+        collection: "your-collection-name"  # Placeholder for collection name
+        top_k: 5  # Placeholder for top_k value
+        alpha: 0.3  # Placeholder for alpha value
+    mongodb:
+        url: "your-mongodb-url"  # Placeholder for MongoDB URL
+        db_name: "your-db-name"  # Placeholder for MongoDB DB name
+        collection_name: "your-collection-name"  # Placeholder for MongoDB collection name
+
+chunker:
+    fixed:
+        overlap: 20  # Placeholder for overlap
+        chunk_size: 250  # Placeholder for chunk_size
+    semantic: {}  # Placeholder for any semantic configuration (empty in your case)
+
+llm:
+    azure:
+        model: "gpt-4"  # Placeholder for LLM model name
+        api_key: "your-api-key"  # Placeholder for LLM API key
+        endpoint: "https://your-azure-endpoint/"  # Placeholder for LLM Azure endpoint
+        api_version: "2024-12-01-preview"  # Placeholder for API version
+    lmstudio:
+        model: "your-lmstudio-model"  # Placeholder for model name
+        endpoint: "http://your-lmstudio-endpoint"  # Placeholder for local endpoint
+
+document:
+    azure: {}  # Placeholder for any document-specific Azure config
+    docling: {}  # Placeholder for docling-specific config

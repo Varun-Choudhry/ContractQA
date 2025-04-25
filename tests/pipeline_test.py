@@ -14,12 +14,12 @@ def load_sample_document():
     document_stream = io.BytesIO(document_content)    
     return document_stream 
 
-pipeline = [
-    "convert_document_action",
+'''pipeline = [
+    "convert_document_action:semantic",
     "chunker_action",
     "embedder_action",
     "vector_upload_action"
-]
+]'''
 
 pipeline2 = ["embedder_action:azure","hybrid_retrieval_action:weaviatelocal","final_answer_action:azure"]
 
@@ -33,11 +33,11 @@ def test_pipeline():
         "provider" : "azure"
         }
     
-#    orchestrator = Orchestrator(pipeline=pipeline, first_input=first_input)
+    #orchestrator = Orchestrator(pipeline=pipeline, first_input=first_input)
 
- #   final_output = orchestrator.run()
+    #final_output = orchestrator.run()
 
-  #  print("Final Output:", final_output)
+    #print("Final Output:", final_output)
 
     orchestrator2 = Orchestrator(pipeline=pipeline2,first_input=second_input)
     
@@ -46,6 +46,6 @@ def test_pipeline():
     
     print("Final Output:", final_output)
 
-
+    
 if __name__ == "__main__":
     test_pipeline()

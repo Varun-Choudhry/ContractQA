@@ -1,8 +1,8 @@
 from pydantic import BaseModel
 from typing import Optional
-from actions.action import Action, InputSchema, OutputSchema
+from src.rag_actions.actions.action import Action, InputSchema, OutputSchema
 from openai import AzureOpenAI
-from llm.llm import get_completion
+from src.rag_actions.llm.llm import get_completion
 
 class FinalAnswerInputSchema(InputSchema):
     query: str
