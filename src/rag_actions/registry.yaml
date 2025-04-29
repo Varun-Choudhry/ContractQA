@@ -1,17 +1,66 @@
 chunker_action:
   class_path: src.rag_actions.actions.chunker_action.ChunkerAction
+  description: "Chunks text into smaller segments."
+  input_schema: 
+    - document: str
+    - chunk_size: int
+  output_schema:
+    - chunks: list[str]
+  providers: 
+    - fixed
+    - semantic
 
 convert_document_action:
   class_path: src.rag_actions.actions.convert_document_action.ConvertDocumentAction
+  description: "Converts a document (in various formats) into text content."
+  input_schema:
+    - document: Union[str, bytes, io.BytesIO]  
+  output_schema:
+    - content: str
+  providers:
+    - azure
+    - docling  
 
 embedder_action:
   class_path: src.rag_actions.actions.embedder_action.EmbedderAction
+  description: "Embeds text chunks into vector embeddings using a model."
+  input_schema:
+    - chunks: list[str]
+  output_schema:
+    - embeddings: list[list[float]]
+    - chunks: list[str]
+  providers: 
+    - azure 
+    - lmstudio
 
 final_answer_action:
   class_path: src.rag_actions.actions.final_answer_action.FinalAnswerAction
-
+  description: "Generates a final answer using the provided query and context (results)."
+  input_schema:
+    - query: str
+    - results: list[str]
+  output_schema:
+    - result: str
+  providers: [azure, lmstudio]
+  
 hybrid_retrieval_action:
   class_path: src.rag_actions.actions.hybrid_retrieval_action.HybridRetrievalAction
+  description: "Performs hybrid retrieval by combining vector search and additional semantic matching."
+  input_schema:
+    - embeddings: list[list[float]]
+    - chunks: list[str]
+  output_schema:
+    - results: list[str]
+    - query: str
+  providers: [weaviatelocal, mongodb]
 
 vector_upload_action:
   class_path: src.rag_actions.actions.vector_upload_action.VectorUploadAction
+  description: "Uploads vector embeddings to the specified database."
+  input_schema:
+    - embeddings: list[list[float]]
+    - chunks: list[str]
+    - metadata: dict
+  output_schema:
+    - result: bool
+  providers: [mongodb, weaviatelocal]  
