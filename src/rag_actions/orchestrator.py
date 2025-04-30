@@ -63,3 +63,13 @@ class Orchestrator:
             output_model = action.execute(input_model)
             input_data = output_model.model_dump()
         return input_data
+    def ai_run(self, query):
+        system_prompt = f"""You are an orchestration agent. Your job is to read the user's question or task, and based on a provided set of actions with their input/output schemas and descriptions, determine a logical list of steps (actions) that can be used to fulfill the user's request. Ensure the order of actions take into consideration the compatibility between output of an action and the input of the next action in your proposed sequence. Always append ONE provider with the actions in the format "action:provider". If user request doesn't specify pick a local one, if all options are local just pick one.
+        
+        You have access to the following action registry:
+        {self.registry}
+        
+        Output the list of actions as defined in the registry as a json containing only the action names and provider
+        """
+        
+        #send system prompt and query, recieve list and execute as a pipeline 
